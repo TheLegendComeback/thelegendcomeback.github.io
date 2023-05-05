@@ -59,6 +59,22 @@ a {
     width: auto;
 }
 
+@media screen and (max-width: 992px) {
+    #logo {
+      width: 80vw;
+      height: auto;
+    }
+    .button-container {
+        flex-wrap: wrap;
+        gap: 30px;
+     }
+    .button {
+        font-size: 15px;
+        padding: 9px 10px 10px;
+        width: 120px;
+     }
+  }
+
 #github-logo {
     color: white;
 }
