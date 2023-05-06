@@ -18,7 +18,7 @@ body {
 h1 {
     font-family: "Figtree", sans-serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 42px;
     color: white;
     text-align: center;
     margin-top: 20px;
@@ -26,7 +26,7 @@ h1 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 30px;
+    padding: 8px 25px;
     border-radius: 10px;
 }
 
@@ -88,13 +88,18 @@ div.member-info:nth-child(odd) {
 }
 
 .name-container {
-    width: 100%;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+    gap: 9px;
+    flex-wrap: wrap;
 }
 
 h3 {
+    flex: 0 1 auto;
+    min-width: 30vw;
     font-family: "Figtree", sans-serif;
     font-weight: 500;
     font-size: 18.5px;
@@ -107,7 +112,6 @@ span.title {
     font-family: "Mulish", sans-serif;
     font-size: 12px;
     padding: 4px 9px;
-    margin-left: 9px;
     border-radius: 4px;
 }
 
@@ -116,3 +120,27 @@ span.title {
     padding: 0;
     font-size: 13.5px;
 }
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .member-description {
+        font-size: 18px;
+    }
+    span.title {
+        font-size: 18px;
+        padding: 7px 14px;
+        margin-left: 16px;
+        border-radius: 7px;
+    }
+  }
