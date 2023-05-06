@@ -18,7 +18,7 @@ body {
 h1 {
     font-family: "Figtree", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     text-align: center;
     margin-top: 20px;
@@ -26,8 +26,12 @@ h1 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 35px;
+    padding: 10px 30px;
     border-radius: 10px;
+}
+
+.description {
+    font-size: 15px;
 }
 
 h2 {
@@ -38,8 +42,8 @@ h2 {
 }
 
 .card-bg {
-    margin: 15px;
-    padding: 30px;
+    margin: 2vw;
+    padding: 2.5vw;
     border-radius: 15px;
     background-color: white;
     text-align: center;
@@ -54,19 +58,19 @@ h2 {
 }
 
 .team-photo {
-    margin: 16px 0;
+    margin: 2vw 0;
     width: 83vw;
     border-radius: 20px;
 }
 
 .member-info {
     margin: 20px;
-    padding: 15px;
+    padding: 3.5vw;
     background-color: #f9fcfc;
     border: 2px solid #d5c2e8;
     border-radius: 8px;
     display: flex;
-    gap: 25px;
+    gap: 5vw;
     flex-direction: row;
     align-items: center;
     text-align: left;
@@ -78,7 +82,8 @@ div.member-info:nth-child(odd) {
 }
 
 .member-photo {
-    height: 100px;
+    height: 19vw;
+    width: auto;
     border-radius: 50%;
 }
 
@@ -92,7 +97,7 @@ div.member-info:nth-child(odd) {
 h3 {
     font-family: "Figtree", sans-serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18.5px;
     margin: 0 0 2px 0;
 }
 
@@ -100,7 +105,7 @@ span.title {
     color: white;
     background: linear-gradient(132deg, rgba(216,107,233,1) 0%, rgba(189,144,232,1) 34%, rgba(55,182,228,1) 85%, rgba(177,201,222,1) 100%);
     font-family: "Mulish", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 9px;
     margin-left: 9px;
     border-radius: 4px;
@@ -109,4 +114,5 @@ span.title {
 .member-description {
     margin: 8px 0;
     padding: 0;
+    font-size: 13.5px;
 }
