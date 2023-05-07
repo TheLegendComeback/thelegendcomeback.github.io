@@ -159,3 +159,12 @@ p:last-of-type{
         margin: 50px auto;
     }
   }
+
+footer {
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

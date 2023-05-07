@@ -153,3 +153,17 @@ span.title {
         width: auto;
     }
   }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
