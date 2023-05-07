@@ -158,7 +158,13 @@ p:last-of-type{
     .separator {
         margin: 50px auto;
     }
-  }
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
 
 footer {
     color: white;
